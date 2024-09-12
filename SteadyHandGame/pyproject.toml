@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "miniescaperoom"
+version = "0.1.0"
+description = ""
+authors = ["Matthew Macdonald-Wallace <matt@doics.co>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+platformio = "^6.1.15"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
